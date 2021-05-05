@@ -1,0 +1,100 @@
+.blog {
+    padding: 70px 0;
+
+    &__name {
+        position: relative;
+    }
+
+    &__logo {
+        font-size: 247px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+        opacity: 0.3;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 37px;
+        position: absolute;
+        text-align: center;
+        top: 130px;
+        left: 0;
+        right: 0;
+        font-weight: 500;
+    }
+
+    &__slogan {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 75px;
+        font-weight: normal;
+    }
+
+    &__content {
+        width: 270px;
+        max-width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    &__block {
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    &__block-name {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 25px;
+        color: $blue;
+        font-weight: 500;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .blog {
+        padding: 50px 0;
+
+        &__content {
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    
+}

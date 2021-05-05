@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+// Main styles
+
+body {
+    font-family: $gotham;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/* Mobile Landscape Screen Sizes - small */
+// @media (min-width: 576px) {
+// 	.row {
+// 	  display: flex;
+// 	  flex-wrap: wrap;
+// 	}
+// 	/* 1% - col - 1% - col - 1%  => (100 - 3)/ 2 = 48.5 */
+// 	.col-sm-1 {
+// 	  flex: 0 0 48.5%;
+// 	}
+// 	.col-sm-2 {
+// 	  flex: 0 0 98%;
+// 	}
+//   }
+//   /* Tablet  screen Sizes  -  md */
+//   @media (min-width: 768px) {
+// 	/* 1% - col - 1% - col - 1% - col - 1%  => (100 - 4)/ 3 = 32 */
+// 	.col-md-1 {
+// 	  flex: 0 0 32%;
+// 	}
+// 	.col-md-2 {
+// 	  flex: 0 0 65%;
+// 	}
+// 	.col-md-3 {
+// 	  flex: 0 0 98%;
+// 	}
+//   }
+  
+//   /* Desctip  screen Sizes  -  lg */
+//   @media (min-width: 992px) {
+// 	/* => (100 - 5)/ 4 = 23.75% */
+// 	.col-lg-1 {
+// 	  flex: 0 0 23.75%;
+// 	}
+// 	.col-lg-2 {
+// 	  flex: 0 0 48.5%;
+// 	}
+// 	.col-lg-3 {
+// 	  flex: 0 0 73.25%;
+// 	}
+// 	.col-lg-4 {
+// 	  flex: 0 0 98%;
+// 	}
+//   }
+
+//   .col {
+//   --initbasis: calc((var(--width) / var(--columns)) * 100%);
+//   --gap: calc((var(--columns) - var(--width)) * 0.3%);
+//   flex-basis: calc(var(--initbasis) - var(--gap));
+//   text-align: center;
+// }
