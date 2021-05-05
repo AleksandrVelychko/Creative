@@ -108,6 +108,7 @@ function initMap() {
     zoom: 16,
 	styles: styles,
 	zoomControl: false,
+	disableDefaultUI: true
   });
 }
 
